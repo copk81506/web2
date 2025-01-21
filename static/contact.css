@@ -1,0 +1,284 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: #ffffff;
+  height: 1998px;
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  background: #d9d9d9;
+  width: 1280px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 1918px;
+}
+.div {
+  background: rgba(255, 255, 255, 0.9);
+  width: 1280px;
+  height: 1800px;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+.contact2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 63px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 129px;
+}
+.header {
+  width: 1280px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.header2 {
+  background: #ffffff;
+  width: 1280px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  position: absolute;
+  inset: 0;
+}
+.logo2 {
+  background: rgba(158, 129, 129, 0);
+  width: 326px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 96px;
+  top: 22px;
+  width: 135px;
+}
+.leaf-solid-1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  top: 16px;
+  overflow: visible;
+}
+.div3 {
+  position: absolute;
+  inset: 0;
+}
+.logo3 {
+  background: rgba(158, 129, 129, 0.5);
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 1101px;
+  top: 13px;
+}
+.div4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 1146px;
+  top: 29px;
+  width: 60px;
+}
+.div5 {
+  background: rgba(158, 129, 129, 0.5);
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 918px;
+  top: 13px;
+}
+.div6 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 955px;
+  top: 29px;
+  width: 75px;
+}
+.rectangle-3 {
+  background: #bfbfbf;
+  width: 1201px;
+  height: 1644px;
+  position: absolute;
+  left: 37px;
+  top: 254px;
+}
+.rectangle-4 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 452px;
+  top: 1354px;
+}
+.rectangle-7 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 561px;
+  top: 1619px;
+}
+.rectangle-42 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 849px;
+  top: 1354px;
+}
+.rectangle-72 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 958px;
+  top: 1619px;
+}
+.rectangle-43 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 55px;
+  top: 1354px;
+}
+.rectangle-73 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 164px;
+  top: 1619px;
+}
+.rectangle-44 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 849px;
+  top: 851px;
+}
+.rectangle-74 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 958px;
+  top: 1116px;
+}
+.rectangle-45 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 452px;
+  top: 851px;
+}
+.rectangle-75 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 561px;
+  top: 1116px;
+}
+.rectangle-46 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 55px;
+  top: 851px;
+}
+.rectangle-76 {
+  background: #d9d9d9;
+  width: 262px;
+  height: 167px;
+  position: absolute;
+  left: 164px;
+  top: 1116px;
+}
+.rectangle-47 {
+  background: #ffffff;
+  width: 335px;
+  height: 386px;
+  position: absolute;
+  left: 55px;
+  top: 348px;
+}
+.rectangle-77 {
+  background: #d9d9d9;
+  width: 715px;
+  height: 386px;
+  position: absolute;
+  left: 469px;
+  top: 348px;
+}
+.e-mail-abc-gmail-com {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 561px;
+  top: 616px;
+}
+.tel-0912345678 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 561px;
+  top: 541px;
+}
+.one-two-three {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 561px;
+  top: 466px;
+}
+.one-two-three-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.one-two-three-span2 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}

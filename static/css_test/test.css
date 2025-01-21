@@ -1,0 +1,132 @@
+/* 通用样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* 顶部导航栏 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;  /* 确保Logo和标语垂直居中 */
+  gap: 10px;            /* Logo和标语之间的间距 */
+}
+
+.logo {
+  height: 50px;  /* 控制Logo的高度 */
+}
+
+.slogan {
+  font-size: 18px;  /* 标语的字体大小 */
+  color: white;  /* 标语的颜色 */
+  font-weight: bold;  /* 标语加粗 */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.photo-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.photo-description {
+  font-size: 18px;
+  color: #555;
+}
+
+/* 页尾 */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* 响应式设计：中等屏幕（如平板） */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;  /* 垂直排列Logo和导航项 */
+      align-items: flex-start;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .main-title {
+      font-size: 28px;  /* 在小屏幕上缩小标题的字体 */
+  }
+
+  .photo-description {
+      font-size: 16px;  /* 照片说明文字大小缩小 */
+  }
+}
+
+/* 响应式设计：小屏幕（如手机） */
+@media (max-width: 480px) {
+  .logo {
+      height: 40px;  /* Logo在手机上缩小 */
+  }
+
+  .slogan {
+      font-size: 14px;  /* 标语字体进一步缩小 */
+  }
+
+  .main-title {
+      font-size: 24px;  /* 进一步缩小标题字体 */
+  }
+
+  .photo-description {
+      font-size: 14px;  /* 照片说明文字进一步缩小 */
+  }
+
+  .footer {
+      font-size: 14px;  /* 页尾字体缩小 */
+  }
+}
